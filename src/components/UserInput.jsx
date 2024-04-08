@@ -26,7 +26,7 @@ const UserInput = ({ onChange, userInput }) => {
             required
             value={userInput.annualInvestment}
             onChange={(event) =>
-              onChangeChange("annualInvestment", event.target.value)
+              onChange("annualInvestment", event.target.value)
             }
           />
         </p>
